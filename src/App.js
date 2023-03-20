@@ -2,6 +2,8 @@ import './App.css'
 
 // use the below bookshelvesList for rendering read status of book items in Bookshelves Route
 
+import Login from './components/Login'
+
 const bookshelvesList = [
   {
     id: '22526c8e-680e-4419-a041-b05cc239ece4',
@@ -25,6 +27,6 @@ const bookshelvesList = [
   },
 ]
 
-const App = () => <div>Hello World</div>
+const App = () => <Login bookshelvesList={bookshelvesList} />
 
 export default App
