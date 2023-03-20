@@ -1,0 +1,40 @@
+.header_img_logo {
+  margin-left: 20px;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.Header_home {
+  color: #0284c7;
+  text-decoration: none;
+}
+
+.logout_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 73px;
+  height: 32px;
+
+  background: #0284c7;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  color: #f8fafc;
+  flex-grow: 0;
+}
